@@ -1,5 +1,6 @@
 #### MVC NEDİR ? (Model-View-Controller)
  Yazılım geliştirmede kullanılan(özellikle webte) geliştirme patternidir.(Yazılım mimari deseni).
+ 
 ![xBugor ][resim]
 
 [resim]: ./assets/mvc.jpg "Bugrahan"
