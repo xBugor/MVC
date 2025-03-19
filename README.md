@@ -72,3 +72,11 @@ sequenceDiagram
     Model-->>Controller:  Veriyi döndür
     Controller->>View: Ürünü HTML içinde göster
     View-->>Kullanıcı: Sayfayı döndür
+
+
+| Avantajlar                                 | Dezavantajlar                                |
+|--------------------------------------------|----------------------------------------------|
+| **Modülerlik**: Her bileşenin ayrı olması, geliştirme sürecini daha düzenli hale getirir. | **Başlangıç Karmaşıklığı**: Yeni başlayanlar için tasarım deseninin anlaşılması zor olabilir. |
+| **Test Edilebilirlik**: Model, View ve Controller arasındaki ayrım, her bileşenin bağımsız test edilmesini kolaylaştırır. | **Performans Sorunları**: MVC'nin eklediği soyutlama, performans kaybına yol açabilir. |
+| **Bakım Kolaylığı**: Değişiklikler yalnızca ilgili bileşende yapılabilir, bu da bakım sürecini basitleştirir. | **Zaman Alıcı Başlangıç**: İlk kurulum ve yapılandırma süreci daha uzun olabilir. |
+| **Yeniden Kullanılabilirlik**: Her bileşen bağımsız olarak kullanılabilir ve yeniden kullanılabilir. | **Karmaşık Yapılar**: Büyük projelerde MVC yapısı, fazladan dosya ve kod yönetimi gerektirebilir. |
